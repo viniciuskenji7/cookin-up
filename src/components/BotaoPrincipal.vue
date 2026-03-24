@@ -22,6 +22,7 @@
         border-radius: 2rem;
         font-weight: 800;
         min-width: 312px;
+        margin-top: 3rem;
         cursor: pointer;
         transition: 0.2s;
         box-shadow: 0 0 2px 2px rgb(0, 0, 0, 0.2);

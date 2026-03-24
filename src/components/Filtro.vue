@@ -19,7 +19,9 @@ export default {
 
 <template>
     <aside class="filtro-box">
-        <BarraPesquisa />
+        <BarraPesquisa 
+            @buscar-categoria="$emit('buscarCategoria', $event)"
+        />
         <article class="categoria-box">
             <h3>Categorias</h3>
             <ul class="categoria-lista">
@@ -50,8 +52,8 @@ export default {
 
 <style scoped>
 .filtro-box {
-    height: 100vh;
-    width: 47rem;
+    height: 100%;
+    width: 20%;
     padding: 2.5rem;
     background-color: var(--cinza-claro);
 

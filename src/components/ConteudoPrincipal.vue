@@ -96,7 +96,7 @@ export default {
 
     display: flex;
     justify-content: center;
-    gap: 2.5rem;
+    /* gap: 2.5rem; */
 }
 
 .ingredientes {

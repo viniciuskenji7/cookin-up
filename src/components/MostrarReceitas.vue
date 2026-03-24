@@ -53,8 +53,8 @@ export default {
                 <Pratos :prato="prato"/>
             </li>
         </ul>
+        <BotaoPrincipal texto="Editar Lista" @click="$emit('editarLista')"/>
     </section>
-    <BotaoPrincipal texto="Editar Lista" @click="$emit('editarLista')"/>
 </template>
 
 
